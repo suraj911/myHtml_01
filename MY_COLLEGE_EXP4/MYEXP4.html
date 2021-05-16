@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="myexp4.css">
+</head>
+<body>
+	<h1><b>Demonstration of forms</b></h1>
+	<form>
+		
+		<fieldset>
+			<legend><b>Personal Details</b></legend>
+		
+
+		<table>
+			
+				<tr>
+					<td><label for="fname">First name</label></td>
+					<th><input type="text" name="fname"></th>
+				</tr>
+				
+				<tr>
+					<td><label for="lname">Last name</label></td>
+					<th><input type="text" name="lname"></th>
+				</tr>
+				
+				<tr>
+					<td><lable for="enroll">Enrollment No.</lable></t>
+					<th><input type="text" name="enroll"></th>
+				</tr>
+
+				<tr>
+                    <td><label for="address">Address</label></td>
+                    <th><textarea name="address" rows="3" cols="20"></textarea></th>
+                </tr>
+
+		</table>
+	</fieldset>
+	<fieldset>
+         <legend><b>Create User ID and Password</b></legend>
+            <table>
+                    <tr>
+                        <td><label for="userid">User ID</label></td>
+                        <th><input type="text" name="userid"></th>
+                    </tr>
+
+                    <tr>
+                      <td><label for="password">Password</label></td>
+                      <th><input type="password" name="password"></th>
+                  </tr>
+            </table>
+                
+    </fieldset>
+    <fieldset>
+       	<legend><b>Academic Details</b></legend>
+            <table>
+                    <tr>
+                        <td><label for="userid">Course</label></td>
+                        <th><select name="branch">
+                            <option value="cse">CSE</option>
+                            <option value="it">IT</option>
+                            <option value="ece">ECE</option>
+                            <option value="eee">EEE</option>
+                          </select>
+                        </th>
+                    </tr>
+            </table>
+                 <p>Year:</p>
+                <input type="radio" name="year" value="first">
+                <label for="first">I</label><br>
+                <input type="radio" name="year" value="second">
+                <label for="year">II</label><br>
+                <input type="radio" name="year" value="third">
+                <label for="third">III</label>
+                <br>
+                <input type="radio" name="year" value="forth">
+                <label for="forth">IV</label>
+    </fieldset>
+    <fieldset>
+       	<button>Submit</button>
+        <button>Reset</button>
+    </fieldset>
+
+</form>
+</body>
+</html>
